@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #222;
+        }
+
+        header {
+            background: #111;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: white;
+        }
+
+        .hero h1 {
+            font-size: 45px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #111;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>My Website</h2>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Welcome to My Website</h1>
+        <p>Modern, simple and professional website.</p>
+        <a href="#contact" class="btn">Contact Us</a>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We provide quality services and modern solutions.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>Web Design • Development • Digital Services</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: example@gmail.com</p>
+        <p>Phone: +91 98765 43210</p>
+    </section>
+
+    <footer>
+        <p>© 2026 My Website. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
